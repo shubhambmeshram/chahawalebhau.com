@@ -29,6 +29,9 @@
     p {
       margin-bottom : 0;
     }
+    .card {
+      margin:1rem;
+    }
   </style>
 </head>
 
@@ -93,7 +96,7 @@
     <div class="container-fluid">
       <div class="row border text-center">
           <div class="col-md-12">
-            We Offer
+            <h4>We Offer</h4>
           </div>
         </div>
         <div class="row text-center">
@@ -105,6 +108,41 @@
           </div>
         </div>
       </div>
+
+
+      <div class="container" >
+      <div class="row">
+        <div class="col-md-4">
+      <div class="card " style="width: 18rem;">
+        <img class="card-img-top" src="10871.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+  </div>
+      <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="10871.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+  </div>
+      <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="10871.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+  </div>
+    </div>
 
 
     <div>
