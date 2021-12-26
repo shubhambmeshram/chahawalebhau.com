@@ -10,10 +10,36 @@
       background: rgb(155, 154, 154);
       color: #fff;
     }
+    .navbar-brand {
+        font-size: 2rem;
+    }
     p {
       margin-bottom : 0;
     }
     .card {
       margin:1rem;
       border: none;
+    }
+    .card-header {
+        font-size: 2rem;
+    }
+
+    .card-title {
+        font-size: 3rem;
+    }
+
+    .card-text {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 2rem !important;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        border-bottom: 2px solid rgba(255, 255, 255, 0);
+    }
+    
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: rgba(255,255,255,.75);
+        border-bottom: 2px solid white;
     }
