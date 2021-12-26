@@ -1,0 +1,19 @@
+    * {
+      padding :0;
+      margin :0;
+    }
+    body {
+        font-family: 'Crimson Pro', serif;
+        font-size: 20px;
+      }
+    .navbar {
+      background: rgb(155, 154, 154);
+      color: #fff;
+    }
+    p {
+      margin-bottom : 0;
+    }
+    .card {
+      margin:1rem;
+      border: none;
+    }
