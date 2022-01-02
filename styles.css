@@ -1,13 +1,14 @@
     * {
       padding :0;
       margin :0;
+      background-color: black;
     }
     body {
         font-family: 'Crimson Pro', serif;
         font-size: 20px;
       }
     .navbar {
-      background: rgb(155, 154, 154);
+      background: rgb(0, 0, 0);
       color: #fff;
     }
     .navbar-brand {
@@ -15,17 +16,25 @@
     }
     p {
       margin-bottom : 0;
+      color: white;
     }
     .card {
       margin:1rem;
       border: none;
+      background-color: rgb(30, 30, 30);
+    }
+
+    .card-img-top {
+      border:2px solid gray;
     }
     .card-header {
         font-size: 2rem;
+        color: white;
     }
 
     .card-title {
         font-size: 3rem;
+        color: white;
     }
 
     .card-text {
