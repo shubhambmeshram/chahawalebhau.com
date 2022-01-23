@@ -52,3 +52,6 @@
         color: rgba(255,255,255,.75);
         border-bottom: 2px solid white;
     }
+    .animate__animated.animate__fadeInUp {
+      --animate-duration: 1s;
+    }
